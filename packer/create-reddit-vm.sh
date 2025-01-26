@@ -1,0 +1,2 @@
+#!/bin/bash
+gcloud compute instances create reddit-full --boot-disk-size=30GB --image-family=reddit-full --image-project=commit-lab-1  --machine-type=e2-micro --tags puma-server --restart-on-failure --zone=us-central1-a
