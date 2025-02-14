@@ -21,3 +21,16 @@ variable "private_key_path" {
 variable "disk_image" {
   description = "Disk image"
 }
+
+/*
+
+Values of variables defined in a terraform.tfvars file
+
+project          = "commit-lab-1"
+region           = "us-central1"
+zone             = "us-central1-a"
+public_key_path  = "~/.ssh/appuser.pub"
+private_key_path = "~/.ssh/appuser"
+disk_image       = "reddit-base"
+
+*/
